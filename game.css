@@ -1,0 +1,115 @@
+body
+{
+	background: #80f3ed;
+}
+
+	.login_div1 , .login_div2
+	{
+		background: white;
+		padding: 10px;
+		float: none;
+		border-radius: 15px;
+	}
+
+
+#player1_name , #player2_name
+{
+	display: inline-block;
+	margin-left: 20px;
+}
+#word
+{
+	width: 60%;
+}
+#word_display
+{
+	letter-spacing: 5px;
+}
+#output
+{
+background: white;
+border-radius: 10px;
+border-top: 10px solid #047e4b;
+padding: 10px;
+float: none;
+text-align: left;
+}
+
+body{
+	width: 100%;
+	height:100%;
+	position:relative;
+	overflow:hidden;
+	background: 
+	  linear-gradient(
+		rgba(0, 0, 0, 0.7), 
+		rgba(0, 0, 0, 0.7)
+	  ),
+	  black url('https://images.unsplash.com/photo-1439723680580-bfd9d28ef9b6?crop=entropy&fit=crop&fm=jpg&h=950&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1925') 50% 50% no-repeat;
+ 
+	   
+}
+	
+   input{
+	width: 100%;
+    position: relative;
+    background-color: #fff;
+    border-radius: 20px;
+	
+    font-size: 16px;
+    color: #4b2354;
+    line-height: 1.2;
+    display: block;
+    width: 100%;
+    height: 62px;
+    background: 0 0;
+    padding: 0 20px 0 23px;
+	
+    text-rendering: auto;
+    color: -internal-light-dark(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    padding: 1px 2px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: -inte
+   }
+  
+  button {
+	border-radius: 15px;
+	  
+	  height: 70px;
+	  font-size: 1em;
+	  
+	  line-height: 60px;
+	  text-align: center;
+	  text-transform: uppercase;
+	  background-color: transparent;
+	  cursor: pointer;
+	  text-decoration:none;
+	  font-family: 'Roboto', sans-serif;
+	  font-weight:900;
+	  font-size:17px;
+	  letter-spacing: 0.045em;
+	  background: rgb(255,130,130);
+	background: -moz-linear-gradient(left,  rgba(255,130,130,1) 0%, rgba(225,120,237,1) 100%);
+	background: -webkit-linear-gradient(left,  rgba(255,130,130,1) 0%,rgba(225,120,237,1) 100%);
+	background: linear-gradient(to right,  rgba(255,130,130,1) 0%,rgba(225,120,237,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff8282', endColorstr='#e178ed',GradientType=1 );
+  }
+  
+  
+  
+  
+  
